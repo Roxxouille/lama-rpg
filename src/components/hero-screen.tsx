@@ -5,6 +5,7 @@ import { Label } from "./ui/label";
 
 export function HeroScreen() {
 	const hero = useHero();
+	const { updateMorale, updateHealth } = useHeroesActions();
 
 	if (!hero) {
 		return <ImportHero />;
@@ -61,9 +62,18 @@ export function HeroScreen() {
 						<div>
 							{hero.health.current}/{hero.health.max}
 						</div>
-						<Button className="max-w-6 h-6">+</Button>
-						<Button className="max-w-6 h-6" variant="secondary">
+						<Button
+							className="max-w-6 h-6"
+							onClick={() => updateHealth("increment")}
+						>
 							-
+						</Button>
+						<Button
+							className="max-w-6 h-6"
+							variant="secondary"
+							onClick={() => updateHealth("decrement")}
+						>
+							+
 						</Button>
 					</div>
 					<div>Armure: {hero.health.armor}</div>
@@ -74,9 +84,18 @@ export function HeroScreen() {
 						<div>
 							{hero.morale.current}/{hero.morale.max}
 						</div>
-						<Button className="max-w-6 h-6">+</Button>
-						<Button className="max-w-6 h-6" variant="secondary">
+						<Button
+							className="max-w-6 h-6"
+							onClick={() => updateMorale("increment")}
+						>
 							-
+						</Button>
+						<Button
+							className="max-w-6 h-6"
+							variant="secondary"
+							onClick={() => updateMorale("decrement")}
+						>
+							+
 						</Button>
 					</div>
 					<div>Cran: {hero.morale.grit}</div>
