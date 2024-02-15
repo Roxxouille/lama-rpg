@@ -1,0 +1,161 @@
+export const exempleHero = {
+  name: "Eude Predivan, Ran-Krâârr",
+  profession: "Guerrier",
+  adjectives: [
+    { value: "Poete" },
+    { value: "Violence" },
+    { value: "Pacifisme" },
+    { value: "Justicier" },
+    { value: "Bodybuildé" },
+  ],
+  drives: [
+    { value: "La beauté d'un champs de fleur submergé par les premiers rayons de soleil du matin" },
+    {
+      value:
+        "Se laisser envahir par les émotions de l'instant présent, s'abandonnant totalement a l'expression de ses sentiments",
+    },
+    { value: "La sensation d'une rage qui s'apaise apres un massacre" },
+  ],
+  gear: [
+    {
+      value:
+        "Une gourde Kruur, une huile dont seulement quelques gouttes endurcirais la peau. Une huile rituel de son peuple d'origine (armure de 1)",
+    },
+    {
+      value: "Un livre où j'ecris mes poesies",
+    },
+    {
+      value:
+        "une petite trousse en cuir avec de quoi ecrire et de quoi colorier. Fusain, pigments récolté avec les années. Je les manipule tres delicatement. offert le 5eme maitre",
+    },
+    {
+      value:
+        "Un marteau de guerre lourd et imposant avec un manche sculpté. Marteau d'un coté, pointu de l'autre. Nommé \"L'ouvre boite\" par celui qui me l'a offert, mon 3eme maitre. Degat +2 (+1 penetration d'armure)",
+    },
+    {
+      value:
+        "Un petit couteau a beurre. D'apparence non dangereuse, c'est avec cet objet que j'ai commis mon premier meutre. L'assasin de ma mere.",
+    },
+  ],
+  health: {
+    max: 15,
+    current: 15,
+    armor: 1,
+  },
+  morale: {
+    max: 3,
+    current: 3,
+    grit: 1,
+  },
+  generalAbilities: [
+    {
+      name: "athletics",
+      max: 10,
+      current: 10,
+    },
+    {
+      name: "bindWounds",
+      max: 4,
+      current: 4,
+    },
+    {
+      name: "burglary",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "preparedness",
+      max: 3,
+      current: 3,
+    },
+    {
+      name: "stealth",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "sorcery",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "sway",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "warfare",
+      max: 13,
+      current: 13,
+    },
+  ],
+  allies: [
+    { max: 1, current: 1, name: "Outlanders" },
+    { max: 1, current: 1, name: "Commoners" },
+  ],
+  enemies: [{ max: 1, current: 1, name: "Mercenaries" }],
+  socialAbilities: [
+    {
+      name: "charm",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "command",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "intimidation",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "liarsTell",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "nobility",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "servility",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "taunt",
+      max: 0,
+      current: 0,
+    },
+    {
+      name: "trustworthy",
+      max: 3,
+      current: 3,
+    },
+  ],
+  personalAbilities: [
+    {
+      name: "knowMonstrosities",
+      max: 1,
+      current: 1,
+    },
+    {
+      name: "spotFrailty",
+      max: 2,
+      current: 2,
+    },
+    {
+      name: "tacticsOfDeath",
+      max: 3,
+      current: 3,
+    },
+    {
+      name: "wildernessMastery",
+      max: 2,
+      current: 2,
+    },
+  ],
+};
