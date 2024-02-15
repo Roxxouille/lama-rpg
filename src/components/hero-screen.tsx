@@ -64,14 +64,14 @@ export function HeroScreen() {
 						</div>
 						<Button
 							className="max-w-6 h-6"
-							onClick={() => updateHealth("increment")}
+							onClick={() => updateHealth("decrement")}
 						>
 							-
 						</Button>
 						<Button
 							className="max-w-6 h-6"
 							variant="secondary"
-							onClick={() => updateHealth("decrement")}
+							onClick={() => updateHealth("increment")}
 						>
 							+
 						</Button>
@@ -86,14 +86,14 @@ export function HeroScreen() {
 						</div>
 						<Button
 							className="max-w-6 h-6"
-							onClick={() => updateMorale("increment")}
+							onClick={() => updateMorale("decrement")}
 						>
 							-
 						</Button>
 						<Button
 							className="max-w-6 h-6"
 							variant="secondary"
-							onClick={() => updateMorale("decrement")}
+							onClick={() => updateMorale("increment")}
 						>
 							+
 						</Button>
