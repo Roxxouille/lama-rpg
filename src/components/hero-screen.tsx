@@ -12,7 +12,7 @@ export function HeroScreen() {
 	}
 
 	return (
-		<div>
+		<div className="p-2 w-full h-full flex flex-wrap">
 			<div className="text-foreground text-2xl font-semibold leading-none tracking-tight p-4">
 				{hero.name}
 			</div>
